@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@1
+  cypress: cypress-io/cypress@3
 # using service containers on CircleCI
 # https://github.com/cypress-io/circleci-orb/blob/master/docs/recipes.md#service-containers
 # https://circleci.com/docs/2.0/databases/
