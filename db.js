@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
-const uri = process.env.MONGO_URI
-// const uri = "mongodb://mongoadmin:secret@localhost:27017/admin"
+// const uri = process.env.MONGO_URI
+const uri = "mongodb://mongosagar:secret@mongodb:27017/admin"
 if (!uri) {
   throw new Error('Missing MONGO_URI')
 }
