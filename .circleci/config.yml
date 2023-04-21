@@ -14,7 +14,7 @@ executors:
           MONGO_URI: mongodb://$MONGO_USERNAME:$MONGO_PASSWORD:27017/?authSource=admin
 
       # image used to run Mongo in a separate container
-      - image: mongo:4.4.5
+      - image: circleci/mongo:4.0-xenial-ram
         environment:
           MONGO_INITDB_ROOT_USERNAME: $MONGO_USERNAME
           MONGO_INITDB_ROOT_PASSWORD: $MONGO_PASSWORD
