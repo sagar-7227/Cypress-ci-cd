@@ -46,8 +46,6 @@ async function initServer() {
   app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`)
   })
-
-  // TODO implement disconnect on quit signal
 }
 
 initServer().catch(console.dir)
